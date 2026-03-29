@@ -10,7 +10,7 @@ import Pricing from './pages/Pricing'
 import PaymentSuccess from './pages/PaymentSuccess'
 import PaymentFailed from './pages/PaymentFailed'
 
-export const serverlUrl = "http://localhost:8000"
+export const serverlUrl = "https://ai-examnotes-mern-projectserver.onrender.com"
 const App = () => {
   const dispatch = useDispatch()
   useEffect(() => {
